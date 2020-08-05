@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+name = "pypi"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+opencv-python = "*"
+numpy = "*"
+tensorflow-gpu = "==1.12.0"
+keras = "==2.2.4"
+pillow = "*"
+scikit-image = "*"
+tqdm = "*"
+
+[requires]
+python_version = "3.6"
+
+[pipenv]
+allow_prereleases = true
